@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+<html>
+<head><title>Dashboard</title></head>
+<body>
+  <h2>Welcome, {{ user }}</h2>
+  <h3>Signal:</h3>
+  <p>Asset: {{ signal.asset }}</p>
+  <p>Direction: {{ signal.signal }}</p>
+  <p>Timeframe: {{ signal.timeframe }}</p>
+  <p>Confidence: {{ signal.confidence }}</p>
+  <p>Time: {{ signal.time }}</p>
+  <a href="/logout">Logout</a>
+</body>
+</html>
